@@ -4,7 +4,7 @@ import { BooksModule } from './books/books.module';
 
 @Module({
   imports: [
-    AuthModule, // 👈 IF THIS IS MISSING, NOTHING WORKS
+    AuthModule,
     BooksModule
   ],
 })
