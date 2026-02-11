@@ -10,7 +10,7 @@ import { AuthController } from './auth.controller';
       signOptions: { expiresIn: '1d' },
     }),
   ],
-  controllers: [AuthController], // 👈 REQUIRED
+  controllers: [AuthController],
   providers: [AuthService],
 })
 export class AuthModule {}
